@@ -8,6 +8,7 @@ from time import sleep
 import emoji
 import random
 
+
 def summarize(text):
     url = 'https://api-inference.huggingface.co/models/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO'
     headers = {"Authorization": f'Bearer {os.getenv("HUGGING_FACE_API")}'}
