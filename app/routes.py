@@ -20,6 +20,7 @@ from .image import Txt2Img, Image3D
 from .speech import speech2text, text2speech, speech2speech
 
 main = Blueprint('main', __name__)
+
 CORS(main)
 
 def get_chat_engine(model_name):

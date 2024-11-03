@@ -9,6 +9,7 @@ import time
 import pyttsx3
 from gtts import gTTS
 
+
 import tempfile
 
 def speech2text(file):

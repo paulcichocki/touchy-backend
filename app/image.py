@@ -6,7 +6,6 @@ import json
 
 from time import sleep
 
-
 class Txt2Img():
     output_pattern = ''
     api_base_url = ''
